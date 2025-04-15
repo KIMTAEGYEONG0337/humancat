@@ -1,7 +1,7 @@
-name: 'Humancat action'
-description: 'Generate Human and Cat (GitHub Action Practice)'
+name:'Humancat action'
+description:'Generate Human and Cat (Github Action Practice)'
 inputs:
-  human-name:  # id of input
+  human-name: # id of input
     description: 'human name'
     required: true
     default: 'Ryan'
@@ -9,8 +9,8 @@ inputs:
     description: 'cat name'
     required: true
     default: 'Haku'
-outputs:
-  human-name: 
+  outputs:
+  human-name:
     description: 'The name of Human'
   human-age:
     description: 'Age of Human'
@@ -19,8 +19,8 @@ outputs:
   cat-status:
     description: 'Status of Cat'
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using:'node16'
+  main:'dist/index.hs'
 branding:
-  icon: cloud-snow
-  color: yellow
+  icon:cloud-snow
+  color:yellow
